@@ -11,6 +11,7 @@
 		152CF6362555DBC600B8CD33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152CF6352555DBC600B8CD33 /* ContentView.swift */; };
 		152CF6382555DBC800B8CD33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152CF6372555DBC800B8CD33 /* Assets.xcassets */; };
 		152CF63B2555DBC800B8CD33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152CF63A2555DBC800B8CD33 /* Preview Assets.xcassets */; };
+		15B3F019257831990092C10B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B3F018257831990092C10B /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		152CF6372555DBC800B8CD33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		152CF63A2555DBC800B8CD33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		152CF63C2555DBC800B8CD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B3F018257831990092C10B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				152CF6332555DBC600B8CD33 /* BullseyeApp.swift */,
 				152CF6352555DBC600B8CD33 /* ContentView.swift */,
+				15B3F018257831990092C10B /* AboutView.swift */,
 				152CF6372555DBC800B8CD33 /* Assets.xcassets */,
 				152CF63C2555DBC800B8CD33 /* Info.plist */,
 				152CF6392555DBC800B8CD33 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				152CF6362555DBC600B8CD33 /* ContentView.swift in Sources */,
+				15B3F019257831990092C10B /* AboutView.swift in Sources */,
 				152CF6342555DBC600B8CD33 /* BullseyeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +277,7 @@
 				DEVELOPMENT_TEAM = 5VWQPLR63B;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Bullseye/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +299,7 @@
 				DEVELOPMENT_TEAM = 5VWQPLR63B;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Bullseye/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
